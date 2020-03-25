@@ -31,7 +31,7 @@ body{
 
 .container{
     margin-top: 40px;
-    margin-bottom: 40px;
+    margin-bottom: 60px;
 }
 
 .cat1{
@@ -61,9 +61,9 @@ body{
     width: 100px;
 }
 
-.shoes-buy-now-btn{
+.shoes-buy-now-btn, .backpack-buy-now-btn{
     padding: 10px 25px;
-    background-color: black;
+    background-color: rgb(44, 44, 44);
     color: white;
     font-size: 15px;
     font-weight: 600;
@@ -83,4 +83,27 @@ body{
 
 .card p{
     font-size: 15px;
+}
+
+#subscribe{
+    height: 300px;
+}
+
+.form{
+    text-align: center;
+}
+
+.form button{
+    margin-top: 10px;
+}
+.email-field{
+    width: 500px;
+    height: 50px;
+    border: none;
+    text-align: center;
+    margin-top:20px;
+}
+
+footer{
+    text-align: center;
 }
